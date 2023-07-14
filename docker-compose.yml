@@ -1,0 +1,18 @@
+# services:
+#   csb:
+#     image: crossbell/contracts
+#     ports:
+#       - 8545:8545
+services:
+  xnode:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8545:8545
+  xviewer:
+    build:
+      context: ./xviewer
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
