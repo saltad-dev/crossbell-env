@@ -1,0 +1,32 @@
+{
+  "name": "xviewer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:localhost": "CROSSBELL_RPC_ADDRESS=http://127.0.0.1:8545 next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@json-editor/json-editor": "^2.9.1",
+    "@types/node": "20.0.0",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.3",
+    "autoprefixer": "10.4.14",
+    "crossbell.js": "^1.0.0-alpha.5",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.4.0",
+    "next": "^13.4.1",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-json-pretty": "^2.2.0",
+    "react-json-view": "^1.21.3",
+    "react-json-viewer": "^3.0.1",
+    "react18-json-view": "^0.0.8",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  }
+}
