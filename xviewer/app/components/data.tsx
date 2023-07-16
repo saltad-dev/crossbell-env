@@ -1,8 +1,8 @@
 import { getData, parse } from "../utils";
 import JsonViewer from "./jsonViewer";
+
 export default async function Data(handleOrId: string | number) {
     const { character, notes } = await getData(handleOrId);
-
     return (
         <div>
             <JsonViewer

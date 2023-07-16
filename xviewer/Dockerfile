@@ -7,7 +7,7 @@ RUN yarn
 
 RUN yarn build
 
-ENV CROSSBELL_RPC_ADDRESS http://localhost:8545
+ENV CROSSBELL_RPC_ADDRESS http://127.0.0.1:8545
 
 expose 3000
 
