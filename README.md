@@ -2,5 +2,7 @@ This packs a docker enviornment provides a pseudo local Crossbell node along wit
 
 ## Getting Started
 
+```
 docker compose build
 docker compose up
+```
